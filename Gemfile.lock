@@ -1,0 +1,147 @@
+GIT
+  remote: git://github.com/rack/rack.git
+  revision: 4c58e4d3088c08ae54f8c1883b62f6e727ea45d4
+  specs:
+    rack (1.4.1)
+
+GIT
+  remote: git://github.com/radar/forem-theme-base
+  revision: e5b955755adb85cdd9c3ee945c760fc88a74c537
+  specs:
+    forem-theme-base (0.0.1)
+
+GIT
+  remote: git://github.com/radar/forem.git
+  revision: 28e0a626cb74ad5574f46c83d1dc400a5520e5fd
+  specs:
+    forem (0.1)
+      cancan
+      forem-redcarpet (= 1.0.0)
+      kaminari
+      rails (~> 3.1)
+      simple_form
+
+GIT
+  remote: git://github.com/rails/arel.git
+  revision: fc787a42c0febcee41e13d16e06b72492ab00468
+  specs:
+    arel (3.0.0.20120112113618)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (3.2.1)
+      actionpack (= 3.2.1)
+      mail (~> 2.4.0)
+    actionpack (3.2.1)
+      activemodel (= 3.2.1)
+      activesupport (= 3.2.1)
+      builder (~> 3.0.0)
+      erubis (~> 2.7.0)
+      journey (~> 1.0.1)
+      rack (~> 1.4.0)
+      rack-cache (~> 1.1)
+      rack-test (~> 0.6.1)
+      sprockets (~> 2.1.2)
+    activemodel (3.2.1)
+      activesupport (= 3.2.1)
+      builder (~> 3.0.0)
+    activerecord (3.2.1)
+      activemodel (= 3.2.1)
+      activesupport (= 3.2.1)
+      arel (~> 3.0.0)
+      tzinfo (~> 0.3.29)
+    activeresource (3.2.1)
+      activemodel (= 3.2.1)
+      activesupport (= 3.2.1)
+    activesupport (3.2.1)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    bcrypt-ruby (3.0.1)
+    blankslate (2.1.2.4)
+    builder (3.0.0)
+    cancan (1.6.7)
+    devise (2.0.0)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.0.3)
+      railties (~> 3.1)
+      warden (~> 1.1)
+    erubis (2.7.0)
+    ffi (1.0.11)
+    forem-redcarpet (1.0.0)
+      pygments.rb (= 0.2.4)
+      redcarpet (= 2.0.1)
+    hike (1.2.1)
+    i18n (0.6.0)
+    journey (1.0.1)
+    json (1.6.5)
+    kaminari (0.13.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      railties (>= 3.0.0)
+    mail (2.4.1)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.17.2)
+    multi_json (1.0.4)
+    mysql (2.8.1)
+    orm_adapter (0.0.6)
+    polyglot (0.3.3)
+    pygments.rb (0.2.4)
+      rubypython (~> 0.5.3)
+    rack-cache (1.1)
+      rack (>= 0.4)
+    rack-ssl (1.3.2)
+      rack
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rails (3.2.1)
+      actionmailer (= 3.2.1)
+      actionpack (= 3.2.1)
+      activerecord (= 3.2.1)
+      activeresource (= 3.2.1)
+      activesupport (= 3.2.1)
+      bundler (~> 1.0)
+      railties (= 3.2.1)
+    railties (3.2.1)
+      actionpack (= 3.2.1)
+      activesupport (= 3.2.1)
+      rack-ssl (~> 1.3.2)
+      rake (>= 0.8.7)
+      rdoc (~> 3.4)
+      thor (~> 0.14.6)
+    rake (0.9.2.2)
+    rdoc (3.12)
+      json (~> 1.4)
+    redcarpet (2.0.1)
+    rubypython (0.5.3)
+      blankslate (>= 2.1.2.3)
+      ffi (~> 1.0.7)
+    simple_form (1.5.2)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
+    sprockets (2.1.2)
+      hike (~> 1.2)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    thor (0.14.6)
+    tilt (1.3.3)
+    treetop (1.4.10)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.31)
+    warden (1.1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  arel!
+  devise
+  forem!
+  forem-theme-base!
+  mysql
+  rack!
+  rails
